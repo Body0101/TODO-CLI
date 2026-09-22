@@ -1,6 +1,6 @@
 from datetime import datetime
-from task import Task
-# import json
+from .task import Task
+import json
 
 
 class TaskManager:
@@ -35,3 +35,18 @@ class TaskManager:
                 "date": task.date.isoformat(),
                 "is_done": task.is_done
             } for task in self.tasks]
+    def save_tasks(self):
+        with open("/run/media/abdelrahman/52C09CE0C09CCB9B/python/todo_project/todo/data.json", "w") as file:
+            json.dump(self.to_dict(),file, indent=4)
+    def load_tasks(self):
+        self.tasks = []
+        with open("/run/media/abdelrahman/52C09CE0C09CCB9B/python/todo_project/todo/data.json", "r") as file:
+            lst_dict = json.load(file) 
+        for task in lst_dict:
+            new_task = Task(title=task["title"], date=datetime.fromisoformat(task["date"]))
+            new_task.is_done = task["is_done"]
+            self.tasks.append(new_task)
+
+# if __name__ == '__main__':
+manage = TaskManager()
+manage.load_tasks()
