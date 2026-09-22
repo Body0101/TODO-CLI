@@ -47,6 +47,3 @@ class TaskManager:
             new_task.is_done = task["is_done"]
             self.tasks.append(new_task)
 
-# if __name__ == '__main__':
-manage = TaskManager()
-manage.load_tasks()
