@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "todo-cli"
+version = "0.1.0"
+description = "A simple command-line TODO manager"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "rich",
+    "platformdirs",
+]
+
+
+[project.scripts]
+todo = "todo.cli:main"
+
+
+[tool.setuptools.packages.find]
+where = ["."]

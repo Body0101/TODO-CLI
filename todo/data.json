@@ -1,6 +1,11 @@
 [
     {
         "title": "Study Python",
+        "date": "2026-10-25T18:30:00",
+        "is_done": false
+    },
+    {
+        "title": "Study OOP",
         "date": "2026-09-25T18:30:00",
         "is_done": false
     },
@@ -10,58 +15,38 @@
         "is_done": false
     },
     {
-        "title": "Study Python",
+        "title": "Study OR",
         "date": "2026-09-25T18:30:00",
-        "is_done": false
+        "is_done": true
     },
     {
-        "title": "Study Python",
+        "title": "Study Logic Design",
         "date": "2026-09-25T18:30:00",
-        "is_done": false
+        "is_done": true
     },
     {
-        "title": "Study Python",
+        "title": "Study Network",
         "date": "2026-09-25T18:30:00",
-        "is_done": false
+        "is_done": true
     },
     {
-        "title": "Study Python",
+        "title": "Study CP",
         "date": "2026-09-25T18:30:00",
-        "is_done": false
+        "is_done": true
     },
     {
-        "title": "Study Python",
+        "title": "Study C++ syntax",
         "date": "2026-09-25T18:30:00",
-        "is_done": false
+        "is_done": true
     },
     {
-        "title": "Study Python",
+        "title": "Study MySql",
         "date": "2026-09-25T18:30:00",
-        "is_done": false
+        "is_done": true
     },
     {
-        "title": "Study Python",
-        "date": "2026-09-25T18:30:00",
-        "is_done": false
-    },
-    {
-        "title": "Study Python",
-        "date": "2026-09-25T18:30:00",
-        "is_done": false
-    },
-    {
-        "title": "Study Python",
-        "date": "2026-09-25T18:30:00",
-        "is_done": false
-    },
-    {
-        "title": "Study Python",
-        "date": "2026-09-25T18:30:00",
-        "is_done": false
-    },
-    {
-        "title": "Study Python",
-        "date": "2026-09-25T18:30:00",
+        "title": "Study CCNA",
+        "date": "2026-09-30T17:00:00",
         "is_done": false
     }
 ]
