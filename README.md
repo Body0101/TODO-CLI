@@ -31,7 +31,7 @@ TODO-CLI lets you manage your tasks directly from the terminal with a clean and 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/todo-cli.git
+git clone [https://github.com/YOUR_USERNAME/todo-cli.git](https://github.com/Body0101/TODO-CLI)
 cd todo-cli
 ```
 
@@ -52,7 +52,7 @@ todo --help
 You can also install TODO-CLI directly without cloning the repository:
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/todo-cli.git
+pip install git+[https://github.com/YOUR_USERNAME/todo-cli.git](https://github.com/Body0101/TODO-CLI)
 ```
 
 Then:
