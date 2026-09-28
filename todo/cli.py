@@ -93,6 +93,7 @@ def complete_command(args):
     # Here Print >
     # now I note the wrong indeces
     wrng = []
+    args.id.sort(key=lambda id: int(id[1:]) if id[1:].isdigit() else 0, reverse=True)
     for id in args.id:
         if not manage.complete_task(id):
             wrng.append(id)
